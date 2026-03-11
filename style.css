@@ -1,0 +1,40 @@
+/* google fonte */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@,100..700;1,100..700&display=swap');
+
+ :root {
+
+     --cor-principal: #845EC2;
+     --cor-azulbebe: #2c73d2;
+     --cor-esverdiada: #008f7a;
+     --cor-preto: #000000;
+     --cor-branco: #ffffff;
+ }
+#body {
+    font-family: 'JosefinSans', sans-serif;
+}
+#body {
+background-color: var(--cor-principal);
+}
+.lead {
+    font-weight: 700;
+}
+#rodape {
+    background-color: var(--cor-azulbebe);
+    color: var(--cor-branco);
+}
+#âncora {
+     text-decoration: none;
+     color: var(--cor-branco);
+     font-size: 20px;
+     transition: color 0.3s ease;
+}
+#âncora:hover {
+    color: var(--cor-branco);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.habilidades:hover .badge {
+     backgorund-color: var(--cor-branco ) !important;
+     transform: scale(1.05);
+     -transition: ;
+}
